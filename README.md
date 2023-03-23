@@ -1,41 +1,38 @@
-# draw-polygon-app
+# Draw-polygon-app
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a project built with Vue.js 3 in Vite.
 
-## Recommended IDE Setup
+Here are the steps to run the project:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Getting Started
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+1. Clone the repository:
+```
+git clone https://github.com/hansosorio/draw-polygon-app.git
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+2. Install dependencies and Project setup:
+```
+cd draw-polygon-app
+npm install -g yarn
+yarn
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
+3. Run the development server, by Compiling and see hot-reloads for development:
+```
+yarn run dev
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+4. Open your browser and go to `http://localhost:5173` to see the app running.
 
-```sh
-npm run test:unit
-```
+## Production URL
 
-### Lint with [ESLint](https://eslint.org/)
+The app is currently deployed to the following URL: `https://draw-polygon-app.vercel.app/`
 
-```sh
-npm run lint
-```
+### Screenshots
+
+![Screenshot 1](https://raw.githubusercontent.com/hansosorio/draw-polygon-app/develop/docs/cover-image-polygon.png "Screenshot 1")
+
+---
+
+That's it! With these steps, you should be able to clone the project, install dependencies, run the development server, and access the app at `http://localhost:5173`. Additionally, the README file includes the production URL where the app is currently deployed.

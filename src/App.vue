@@ -14,6 +14,8 @@
 </template>
 
 <script>
+import { inject } from '@vercel/analytics';
+
 export default {
   data() {
     return {
@@ -24,6 +26,7 @@ export default {
     }
   },
   mounted() {
+    inject();
     this.canvas = this.$refs.canvas
     this.ctx = this.canvas.getContext('2d')
     this.canvas.width = this.canvas.offsetHeight
